@@ -62,40 +62,6 @@ trainer = DiffusionTrainer(model)
 trainer.train(train_loader, val_loader, epochs=100)
 ```
 
-## 📁 Project Structure
-
-```
-protein-design/
-├── src/
-│   ├── models/
-│   │   ├── structured_transformer.py    # Core architecture
-│   │   ├── diffusion.py                # Diffusion components
-│   │   └── graph_layers.py             # Graph neural networks
-│   ├── data/
-│   │   ├── pdb_processor.py            # PDB file processing
-│   │   ├── graph_builder.py            # Structure to graph conversion
-│   │   └── dataset.py                  # PyTorch dataset classes
-│   ├── training/
-│   │   ├── trainer.py                  # Training orchestration
-│   │   ├── losses.py                   # Loss functions
-│   │   └── metrics.py                  # Evaluation metrics
-│   └── validation/
-│       ├── alphafold_validator.py      # Structure prediction validation
-│       ├── md_simulator.py             # Molecular dynamics
-│       └── biochemical_analysis.py     # Property analysis
-├── experiments/
-│   ├── configs/                        # Training configurations
-│   ├── results/                        # Experimental results
-│   └── notebooks/                      # Analysis notebooks
-├── data/
-│   ├── raw/                           # Raw PDB files
-│   ├── processed/                     # Processed datasets
-│   └── validation/                    # Validation datasets
-└── docs/
-    ├── technical_spec.md              # Technical specification
-    ├── experimental_protocol.md      # Experimental methods
-    └── results_analysis.md           # Results analysis
-```
 
 ## 🛠️ Installation & Usage
 
@@ -194,22 +160,6 @@ Unlike sequence-only models, our approach:
 - **Therapeutic Design**: Drug discovery pipelines
 - **Industrial Enzymes**: Sustainable biotechnology
 - **Synthetic Biology**: Novel biological systems
-
-## 👥 Team & Contributions
-
-This project represents a collaborative effort combining expertise in:
-- Machine Learning & Deep Learning
-- Structural Biology & Protein Science
-- Computational Chemistry & Biophysics
-- Software Engineering & HPC
-
-## 📚 References
-
-Key papers and resources that informed this work:
-1. "De novo design of protein structure and function with RFdiffusion" - Baker Lab
-2. "Robust deep learning based protein sequence design using ProteinMPNN" - Dauparas et al.
-3. "Highly accurate protein structure prediction with AlphaFold" - DeepMind
-4. "Graph Denoising Diffusion for Inverse Protein Folding" - Yi et al.
 
 ## 📄 License
 
