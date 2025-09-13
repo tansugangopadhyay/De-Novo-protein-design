@@ -164,11 +164,6 @@ Unlike sequence-only models, our approach:
 ## 📄 License
 
 This project is licensed under the MIT License - see LICENSE file for details.
-
-## 🤝 Contributing
-
-We welcome contributions! Please see CONTRIBUTING.md for guidelines.
-
 ---
 
 *This project pushes the boundaries of computational protein design, bringing us closer to the dream of rationally designing proteins for any desired function.*
