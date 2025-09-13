@@ -1,6 +1,0 @@
-Model,Sequence_Recovery_%,Structure_Confidence,Success_Rate_%,Generation_Speed_sec,Parameters_M
-Our Method (Structured Transformer),49.2,0.91,73.0,8.3,127
-ProteinMPNN,52.4,0.89,68.0,12.1,135
-ESM-IF1v,47.8,0.87,65.0,15.2,142
-GraphTrans,44.1,0.84,59.0,18.7,98
-Rosetta FixedBB,32.9,0.78,45.0,258.0,N/A

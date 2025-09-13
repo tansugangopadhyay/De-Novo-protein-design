@@ -1,7 +1,0 @@
-Protein_Type,Sequence_Recovery_%,AlphaFold_Confidence,RMSD_Å,TM_Score,Count
-All-α,52.1,0.92,1.8,0.94,342
-All-β,45.8,0.89,2.1,0.91,287
-α/β,48.9,0.91,1.9,0.93,456
-α+β,47.3,0.9,2.0,0.92,298
-Small,54.2,0.94,1.6,0.95,123
-Membrane,41.7,0.85,2.4,0.88,89
